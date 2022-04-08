@@ -61,7 +61,7 @@ body {
 
 .link {
 	display: block;
-	background-color: #EDA11C;
+	background-color: #01A79B;
 	color: #fff;
 	font-family: var(--font);
 	text-align: center;
@@ -74,16 +74,15 @@ body {
 	box-shadow: 0px 6px #007569;
 }
 
-.link:hover {
-	/* background: #019489; */
-	box-shadow: 0px 8px #007569;
-	transform: translateY(-2px);
-}
+	.link:hover {
+		box-shadow: 0px 8px #B7780F;
+		transform: translateY(-2px);
+	}
 
-.link:active {
-	transform: translateY(6px);
-	box-shadow: 0px 0px #007569;
-}
+	.link:active {
+		transform: translateY(6px);
+		box-shadow: 0px 0px #B7780F;
+	}
 
 #proker {
 	max-width: 300px;
